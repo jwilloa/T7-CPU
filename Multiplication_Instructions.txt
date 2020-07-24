@@ -1,0 +1,17 @@
+INP 5 1
+INP 3 2
+LDi 1
+STi 3
+LDi 2
+SUB 0
+STi 2
+BVS 15
+LDi 3
+ADD 1
+STi 3
+LDi 2
+SUB 0
+STi 2
+JUMP 7
+LDi 3
+Dump
